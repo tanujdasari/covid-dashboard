@@ -14,7 +14,8 @@
     "topojson-server": "^3.0.0",
     "topojson-simplify": "^3.0.0",
     "uuid": "^8.0.0",
-    "@azure/msal-node": "^1.0.0"
+    "@azure/msal-node": "^1.0.0",
+    "express": "^4.17.1"
   },
   "engines": {
     "node": ">=14.0.0"
