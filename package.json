@@ -1,17 +1,22 @@
 {
   "name": "covid-dashboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "COVID-19 Dashboard",
+  "main": "project-root/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node project-root/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "d3": "^7.9.0",
-    "mssql": "^11.0.1",
-    "redis": "^4.6.15"
+    "d3": "^6.0.0",
+    "mssql": "^7.1.0",
+    "redis": "^3.1.2",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.0",
+    "topojson-simplify": "^3.0.0",
+    "uuid": "^8.0.0",
+    "@azure/msal-node": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
